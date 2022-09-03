@@ -10,7 +10,7 @@
 #  v1.5 02/09/2022 Jesher :
 #     - Adiciona docker ao usuário, para nao executar como root
 # -----------------------------------------------------------------
-# Uso: ./autoinstall
+# Uso: ./install.sh
 # -----------------------------------------------------------------
 
 non_root_user=$(who am i | awk '{print $1}');
