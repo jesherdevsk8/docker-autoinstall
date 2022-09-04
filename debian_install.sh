@@ -8,7 +8,7 @@
 #  v1.0 02/09/2022 Slackjeff :
 #     - Versão inicial <https://github.com/slackjeff/preset/blob/master/debian_install_docker>
 #  v1.5 02/09/2022 Jesher :
-#     - Adiciona docker ao usuário, para nao executar como root
+#     - Adiciona usuário ao grupo docker, para nao executar como root
 # -----------------------------------------------------------------
 # Uso: ./install.sh
 # -----------------------------------------------------------------
