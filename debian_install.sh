@@ -2,7 +2,7 @@
 # -----------------------------------------------------------------
 # Script   : install.sh
 # Descrição: script de instalação do docker
-# Versão   : 1.5
+# Versão   : 1.1.0
 # Data     : sex 2 set 2022
 # Histórico:
 #  v1.0 02/09/2022 Slackjeff :
@@ -26,7 +26,7 @@ install(){
 }
 
 config(){
-	usermod -a -G docker $non_root_user
+	usermod -a -G docker "$non_root_user"
 }
 
 install
